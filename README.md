@@ -2,7 +2,6 @@
 
 A responsive web application for finding compatible auto parts by vehicle selection. Built with HTML, CSS, and JavaScript.
 
-![App Screenshot](/assets/logo.png)
 
 ## Features
 
@@ -28,6 +27,17 @@ A responsive web application for finding compatible auto parts by vehicle select
 - Font Awesome icons
 
 
+## URL Format
+
+Generates links in this pattern:
+`https://partifyusa.com/collections/{year}-{make}-{model}?filter.p.product_type={productType}`
+
+## License
+
+Proprietary software © 2025 Partify USA
+
+[Visit Website](https://partifyusa.com)
+
 ## Data Structure
 
 The application uses the following data structure:
@@ -40,13 +50,4 @@ The application uses the following data structure:
   productType: "Front Bumper"
 }
 
-## URL Format
 
-Generates links in this pattern:
-`https://partifyusa.com/collections/{year}-{make}-{model}?filter.p.product_type={productType}`
-
-## License
-
-Proprietary software © 2025 Partify USA
-
-[Visit Website](https://partifyusa.com)
